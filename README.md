@@ -1,5 +1,5 @@
 usage
 
 ```
-for url in  `cat urls.lst` ;do phantomjs showredirects.js $url;done;
+phantomjs showredirects.js SOME_URL
 ```
